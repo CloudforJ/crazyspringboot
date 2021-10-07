@@ -1,8 +1,12 @@
 package org.crazyit.firstboot.service.impl;
 
+import org.crazyit.firstboot.dao.BookDao;
+import org.crazyit.firstboot.domain.Book;
 import org.crazyit.firstboot.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package org.crazyit.firstboot.service;
 
+import org.crazyit.firstboot.domain.Book;
+
 import java.util.List;
 
 public interface BookService {
